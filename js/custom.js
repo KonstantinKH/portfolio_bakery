@@ -27,12 +27,7 @@ $(document).ready(function(){
 
 	});
 
-	$("nav a").click(function(){
 
-		$("header nav").toggleClass("active-menu");
-		$(".sandwich").toggleClass("active");
-
-	});
 
 
 	/*    slick slider    */
