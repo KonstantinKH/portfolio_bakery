@@ -52,7 +52,21 @@ $(document).ready(function(){
 	});//slick
 
 
+/*   fixed header     */
 
+
+$(document).scroll(function(){
+
+
+var scrollTop = $(document).scrollTop();
+
+	if( scrollTop > 100 ){
+		$(".header-wrap").addClass("fixHead");
+	}
+	else{
+		$(".header-wrap").removeClass("fixHead");
+	}
+});
 
 
 
